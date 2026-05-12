@@ -102,10 +102,3 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-
-# Large data files (store in /root/autodl-tmp or other storage)
-*.npy
-processed/ml_twitter.npy
-processed/ml_twitter_node.npy
-processed/ml_twitter_node_labels.npy
-task1/features/*.npy
