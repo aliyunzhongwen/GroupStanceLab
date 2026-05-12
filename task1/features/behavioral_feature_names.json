@@ -1,0 +1,10 @@
+[
+  "tweet_count",
+  "original_ratio",
+  "retweet_ratio",
+  "reply_ratio",
+  "mention_frequency",
+  "active_time_span",
+  "interaction_diversity",
+  "avg_tweet_length"
+]

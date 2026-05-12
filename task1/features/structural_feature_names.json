@@ -1,0 +1,10 @@
+[
+  "in_degree",
+  "out_degree",
+  "total_degree",
+  "degree_centrality",
+  "pagerank",
+  "betweenness_centrality",
+  "clustering_coefficient",
+  "local_reaching_centrality"
+]
