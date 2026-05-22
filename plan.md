@@ -50,31 +50,45 @@
 ### 依赖
 Task 1
 
-## Task 3：强信息个体筛选
+## Task 3：强信息个体筛选与群体特征整合
 ### 目标
-从每个群体中筛选出高信息量/高影响力的核心个体，降低噪声
+从每个群体中筛选高信息量核心个体，并将群体整合为特征集合（"群体画像"），使其格式兼容个体立场检测方法，便于后续直接复用TGAN等模型做群体立场预测
 ### 输入
-- Task 1 输出的个体特征矩阵
-- Task 2 输出的群体划分结果
-- 交互网络数据
+- Task 1 输出的个体特征矩阵（individual_features.npy, individual_features_compact.npy）
+- Task 2 输出的群体划分结果（group_assignments_balanced.npy）
+- 交互网络数据（ml_twitter.csv）
+- 结构特征（structural_features.npy）、行为特征（behavioral_features.npy）、语义特征（semantic_features.npy）、TGAN嵌入（tgan_embeddings.npy）
 ### 工作内容
-1. 定义个体信息强度指标体系：
+1. 个体信息强度评分：
    - 活跃度指标：推文数量、交互频率、活跃时间跨度
    - 影响力指标：入度（被转发/回复次数）、PageRank
-   - 信息量指标：推文语义多样性、立场表达强度（可基于BERT特征方差）
-2. 构建综合评分模型：多指标加权/PCA降维
-3. 设计筛选策略：
-   - 全局Top-K筛选
-   - 每群体保留Top-K核心成员
-   - 基于阈值的自适应筛选
-4. 筛选后的群体完整性验证：确保每个群体仍有足够成员
-5. 对比筛选前后的群体特征差异
+   - 信息量指标：推文语义多样性、立场表达强度（BERT特征方差）
+   - 综合评分：多指标标准化后加权求和
+2. 强信息个体筛选：
+   - 每群体保留Top-K核心成员（确保每群体≥10人）
+   - 自适应阈值筛选（基于综合评分分布的肘部法则）
+   - 验证筛选后群体完整性和立场分布平衡
+3. **群体特征整合（核心步骤）**：
+   - 均值聚合：群体内筛选后个体各维度特征的加权平均（按信息强度加权）
+   - 构建群体级特征向量：结构特征聚合 + 行为特征聚合 + 语义特征聚合 + TGAN嵌入聚合
+   - 构建群体间交互特征：统计群体间的交互边，生成群体级"伪边表"
+   - 格式化为个体立场方法的输入格式：
+     - 群体节点特征矩阵（类似ml_twitter_node.npy）
+     - 群体间交互边表（类似ml_twitter.csv）
+     - 群体间边特征（聚合的语义嵌入）
+     - 群体立场标签（多数投票法）
+4. 数据质量验证：确保群体级数据格式与原始个体数据兼容
 ### 输出
-- individual_filtering.py：个体筛选算法实现
-- filtered_individuals.npy：筛选后的个体列表
-- filtering_analysis.md：筛选策略分析报告
+- individual_scoring.py：个体评分与筛选
+- group_feature_integration.py：群体特征整合
+- filtered_individuals.npy：筛选后的个体列表及评分
+- group_features_matrix.npy：群体特征矩阵（7×D维）
+- group_edge_list.csv：群体间交互边表
+- group_edge_features.npy：群体间边的语义特征
+- group_labels.npy：群体立场标签
+- task3_analysis.md：分析报告
 ### 预计时间
-2-3天
+3-4天
 ### 依赖
 Task 1, Task 2
 
@@ -203,7 +217,7 @@ Task 5
 |------|------|----------|------|
 | Task 1 | 数据探索与个体特征工程 | 3-4天 | 无 |
 | Task 2 | 群体划分 | 3-4天 | Task 1 |
-| Task 3 | 强信息个体筛选 | 2-3天 | Task 1, 2 |
+| Task 3 | 强信息个体筛选与群体特征整合 | 3-4天 | Task 1, 2 |
 | Task 4 | 群体特征与演化分析 | 5-7天 | Task 2, 3 |
 | Task 5 | 群体立场分类网络 | 5-7天 | Task 4 |
 | Task 6 | 实验总结与论文素材 | 2-3天 | Task 5 |
