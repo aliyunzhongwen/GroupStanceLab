@@ -1,0 +1,177 @@
+{
+  "same_stance_pairs": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "group_sizes": [
+    164,
+    164,
+    60,
+    190,
+    36,
+    73,
+    190
+  ],
+  "pair_results": [
+    {
+      "group_a": 2,
+      "group_b": 6,
+      "party": "Democrat",
+      "interaction_a_to_b": 1993.0,
+      "interaction_b_to_a": 13756.0,
+      "interaction_flow": 15749.0,
+      "size_a": 60,
+      "size_b": 190,
+      "interaction_density": 1.3814912280701754,
+      "cosine_similarity": 0.9331072662023139,
+      "interaction_density_normalized": 1.0,
+      "merging_score": 0.9665536331011569
+    },
+    {
+      "group_a": 0,
+      "group_b": 4,
+      "party": "Republican",
+      "interaction_a_to_b": 1154.0,
+      "interaction_b_to_a": 586.0,
+      "interaction_flow": 1740.0,
+      "size_a": 164,
+      "size_b": 36,
+      "interaction_density": 0.29471544715447157,
+      "cosine_similarity": 0.9967319290401105,
+      "interaction_density_normalized": 0.205258665740551,
+      "merging_score": 0.6009952973903308
+    },
+    {
+      "group_a": 1,
+      "group_b": 2,
+      "party": "Democrat",
+      "interaction_a_to_b": 1674.0,
+      "interaction_b_to_a": 858.0,
+      "interaction_flow": 2532.0,
+      "size_a": 164,
+      "size_b": 60,
+      "interaction_density": 0.2573170731707317,
+      "cosine_similarity": 0.9627223007673068,
+      "interaction_density_normalized": 0.17790984718855135,
+      "merging_score": 0.570316073977929
+    },
+    {
+      "group_a": 1,
+      "group_b": 6,
+      "party": "Democrat",
+      "interaction_a_to_b": 1260.0,
+      "interaction_b_to_a": 3746.0,
+      "interaction_flow": 5006.0,
+      "size_a": 164,
+      "size_b": 190,
+      "interaction_density": 0.16065468549422338,
+      "cosine_similarity": 0.9914292617743259,
+      "interaction_density_normalized": 0.10722222578241049,
+      "merging_score": 0.5493257437783682
+    },
+    {
+      "group_a": 0,
+      "group_b": 3,
+      "party": "Republican",
+      "interaction_a_to_b": 2795.0,
+      "interaction_b_to_a": 1946.0,
+      "interaction_flow": 4741.0,
+      "size_a": 164,
+      "size_b": 190,
+      "interaction_density": 0.1521501925545571,
+      "cosine_similarity": 0.9961193201222718,
+      "interaction_density_normalized": 0.10100302934395519,
+      "merging_score": 0.5485611747331135
+    },
+    {
+      "group_a": 3,
+      "group_b": 4,
+      "party": "Republican",
+      "interaction_a_to_b": 712.0,
+      "interaction_b_to_a": 223.0,
+      "interaction_flow": 935.0,
+      "size_a": 190,
+      "size_b": 36,
+      "interaction_density": 0.13669590643274854,
+      "cosine_similarity": 0.9970896560346365,
+      "interaction_density_normalized": 0.089701562943844,
+      "merging_score": 0.5433956094892403
+    },
+    {
+      "group_a": 2,
+      "group_b": 5,
+      "party": "Democrat",
+      "interaction_a_to_b": 90.0,
+      "interaction_b_to_a": 829.0,
+      "interaction_flow": 919.0,
+      "size_a": 60,
+      "size_b": 73,
+      "interaction_density": 0.20981735159817352,
+      "cosine_similarity": 0.631332514877878,
+      "interaction_density_normalized": 0.14317407853927253,
+      "merging_score": 0.3872532967085753
+    },
+    {
+      "group_a": 5,
+      "group_b": 6,
+      "party": "Democrat",
+      "interaction_a_to_b": 178.0,
+      "interaction_b_to_a": 787.0,
+      "interaction_flow": 965.0,
+      "size_a": 73,
+      "size_b": 190,
+      "interaction_density": 0.0695746214852199,
+      "cosine_similarity": 0.714544507353836,
+      "interaction_density_normalized": 0.04061686627213446,
+      "merging_score": 0.37758068681298523
+    },
+    {
+      "group_a": 1,
+      "group_b": 5,
+      "party": "Democrat",
+      "interaction_a_to_b": 100.0,
+      "interaction_b_to_a": 68.0,
+      "interaction_flow": 168.0,
+      "size_a": 164,
+      "size_b": 73,
+      "interaction_density": 0.014032743067156699,
+      "cosine_similarity": 0.6553846589060773,
+      "interaction_density_normalized": 0.0,
+      "merging_score": 0.32769232945303867
+    }
+  ]
+}

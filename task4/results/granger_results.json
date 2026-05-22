@@ -1,0 +1,570 @@
+{
+  "edges": [
+    {
+      "source": 0,
+      "target": 1,
+      "source_party": 1,
+      "target_party": 0,
+      "same_party": false,
+      "p_value": 0.4054637596506407,
+      "f_statistic": 0.7834527205041323,
+      "significant": false,
+      "interaction_total": 178.0
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "source_party": 1,
+      "target_party": 0,
+      "same_party": false,
+      "p_value": 0.04206977130420987,
+      "f_statistic": 7.750904883779286,
+      "significant": true,
+      "interaction_total": 921.0
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "source_party": 1,
+      "target_party": 1,
+      "same_party": true,
+      "p_value": 0.05056109341875037,
+      "f_statistic": 6.894504660580911,
+      "significant": false,
+      "interaction_total": 2795.0
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "source_party": 1,
+      "target_party": 1,
+      "same_party": true,
+      "p_value": 0.2538802428424617,
+      "f_statistic": 1.5450850230745188,
+      "significant": false,
+      "interaction_total": 1154.0
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "source_party": 1,
+      "target_party": 0,
+      "same_party": false,
+      "p_value": 0.2614570408247346,
+      "f_statistic": 1.491904335891745,
+      "significant": false,
+      "interaction_total": 100.0
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "source_party": 1,
+      "target_party": 0,
+      "same_party": false,
+      "p_value": 0.17950247089434057,
+      "f_statistic": 2.224039057204005,
+      "significant": false,
+      "interaction_total": 626.0
+    },
+    {
+      "source": 1,
+      "target": 0,
+      "source_party": 0,
+      "target_party": 1,
+      "same_party": false,
+      "p_value": 0.2233805500726302,
+      "f_statistic": 1.7846015480194755,
+      "significant": false,
+      "interaction_total": 296.0
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "source_party": 0,
+      "target_party": 0,
+      "same_party": true,
+      "p_value": 0.018926215374115273,
+      "f_statistic": 12.537780478982382,
+      "significant": true,
+      "interaction_total": 1674.0
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "source_party": 0,
+      "target_party": 1,
+      "same_party": false,
+      "p_value": 0.13518977444036562,
+      "f_statistic": 3.439488638074027,
+      "significant": false,
+      "interaction_total": 1023.0
+    },
+    {
+      "source": 1,
+      "target": 4,
+      "source_party": 0,
+      "target_party": 1,
+      "same_party": false,
+      "p_value": 0.06602999333853454,
+      "f_statistic": 4.734954139529401,
+      "significant": false,
+      "interaction_total": 99.0
+    },
+    {
+      "source": 1,
+      "target": 5,
+      "source_party": 0,
+      "target_party": 0,
+      "same_party": true,
+      "p_value": 0.22805393622448605,
+      "f_statistic": 1.7449666715590837,
+      "significant": false,
+      "interaction_total": 100.0
+    },
+    {
+      "source": 1,
+      "target": 6,
+      "source_party": 0,
+      "target_party": 0,
+      "same_party": true,
+      "p_value": 0.08810835207314295,
+      "f_statistic": 3.9226386887086004,
+      "significant": false,
+      "interaction_total": 1260.0
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "source_party": 0,
+      "target_party": 1,
+      "same_party": false,
+      "p_value": 0.08913072083518847,
+      "f_statistic": 3.891697428270878,
+      "significant": false,
+      "interaction_total": 249.0
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "source_party": 0,
+      "target_party": 0,
+      "same_party": true,
+      "p_value": 0.4377265313780181,
+      "f_statistic": 0.6770698258821115,
+      "significant": false,
+      "interaction_total": 858.0
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "source_party": 0,
+      "target_party": 1,
+      "same_party": false,
+      "p_value": 0.05166248539086119,
+      "f_statistic": 5.486816006663495,
+      "significant": false,
+      "interaction_total": 44.0
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "source_party": 0,
+      "target_party": 1,
+      "same_party": false,
+      "p_value": 0.022374650892389637,
+      "f_statistic": 8.52004888587601,
+      "significant": true,
+      "interaction_total": 126.0
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "source_party": 0,
+      "target_party": 0,
+      "same_party": true,
+      "p_value": 0.21568868510275307,
+      "f_statistic": 2.3064193103577297,
+      "significant": false,
+      "interaction_total": 90.0
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "source_party": 0,
+      "target_party": 0,
+      "same_party": true,
+      "p_value": 0.23337199020993968,
+      "f_statistic": 1.7012424005377533,
+      "significant": false,
+      "interaction_total": 1993.0
+    },
+    {
+      "source": 3,
+      "target": 0,
+      "source_party": 1,
+      "target_party": 1,
+      "same_party": true,
+      "p_value": 0.011485870054446769,
+      "f_statistic": 11.54111081419535,
+      "significant": true,
+      "interaction_total": 1946.0
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "source_party": 1,
+      "target_party": 0,
+      "same_party": false,
+      "p_value": 0.24201248994220093,
+      "f_statistic": 2.0654732300192347,
+      "significant": false,
+      "interaction_total": 704.0
+    },
+    {
+      "source": 3,
+      "target": 2,
+      "source_party": 1,
+      "target_party": 0,
+      "same_party": false,
+      "p_value": 0.14358935447167015,
+      "f_statistic": 2.712002744278536,
+      "significant": false,
+      "interaction_total": 75.0
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "source_party": 1,
+      "target_party": 1,
+      "same_party": true,
+      "p_value": 0.41140154615795355,
+      "f_statistic": 1.1181502340589176,
+      "significant": false,
+      "interaction_total": 712.0
+    },
+    {
+      "source": 3,
+      "target": 5,
+      "source_party": 1,
+      "target_party": 0,
+      "same_party": false,
+      "p_value": 0.37174855875237295,
+      "f_statistic": 0.9105581120095839,
+      "significant": false,
+      "interaction_total": 22.0
+    },
+    {
+      "source": 3,
+      "target": 6,
+      "source_party": 1,
+      "target_party": 0,
+      "same_party": false,
+      "p_value": 0.1842144973096446,
+      "f_statistic": 2.1699839944842796,
+      "significant": false,
+      "interaction_total": 80.0
+    },
+    {
+      "source": 4,
+      "target": 0,
+      "source_party": 1,
+      "target_party": 1,
+      "same_party": true,
+      "p_value": 0.012048904990948985,
+      "f_statistic": 11.3040334983123,
+      "significant": true,
+      "interaction_total": 586.0
+    },
+    {
+      "source": 4,
+      "target": 1,
+      "source_party": 1,
+      "target_party": 0,
+      "same_party": false,
+      "p_value": 0.5949141719011883,
+      "f_statistic": 0.31018998192517594,
+      "significant": false,
+      "interaction_total": 5.0
+    },
+    {
+      "source": 4,
+      "target": 2,
+      "source_party": 1,
+      "target_party": 0,
+      "same_party": false,
+      "p_value": 0.13314585879485447,
+      "f_statistic": 3.481080291760851,
+      "significant": false,
+      "interaction_total": 70.0
+    },
+    {
+      "source": 4,
+      "target": 3,
+      "source_party": 1,
+      "target_party": 1,
+      "same_party": true,
+      "p_value": 0.6188705791463189,
+      "f_statistic": 0.2707586777229818,
+      "significant": false,
+      "interaction_total": 223.0
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "source_party": 1,
+      "target_party": 0,
+      "same_party": false,
+      "p_value": 0.3526942480111273,
+      "f_statistic": 0.9908360931642588,
+      "significant": false,
+      "interaction_total": 10.0
+    },
+    {
+      "source": 4,
+      "target": 6,
+      "source_party": 1,
+      "target_party": 0,
+      "same_party": false,
+      "p_value": 0.02238010479315261,
+      "f_statistic": 8.519049832432085,
+      "significant": true,
+      "interaction_total": 139.0
+    },
+    {
+      "source": 5,
+      "target": 0,
+      "source_party": 0,
+      "target_party": 1,
+      "same_party": false,
+      "p_value": 0.37913578417624133,
+      "f_statistic": 1.2481240515921137,
+      "significant": false,
+      "interaction_total": 129.0
+    },
+    {
+      "source": 5,
+      "target": 1,
+      "source_party": 0,
+      "target_party": 0,
+      "same_party": true,
+      "p_value": 0.43386611597294666,
+      "f_statistic": 1.0363520796319394,
+      "significant": false,
+      "interaction_total": 68.0
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "source_party": 0,
+      "target_party": 0,
+      "same_party": true,
+      "p_value": 0.01846374867429193,
+      "f_statistic": 12.718720408693503,
+      "significant": true,
+      "interaction_total": 829.0
+    },
+    {
+      "source": 5,
+      "target": 3,
+      "source_party": 0,
+      "target_party": 1,
+      "same_party": false,
+      "p_value": 0.25283958566381204,
+      "f_statistic": 1.9774750189292138,
+      "significant": false,
+      "interaction_total": 44.0
+    },
+    {
+      "source": 5,
+      "target": 4,
+      "source_party": 0,
+      "target_party": 1,
+      "same_party": false,
+      "p_value": 0.5575909388284082,
+      "f_statistic": 0.37905080978166505,
+      "significant": false,
+      "interaction_total": 6.0
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "source_party": 0,
+      "target_party": 0,
+      "same_party": true,
+      "p_value": 0.6668636044153171,
+      "f_statistic": 0.4491280251750736,
+      "significant": false,
+      "interaction_total": 178.0
+    },
+    {
+      "source": 6,
+      "target": 0,
+      "source_party": 0,
+      "target_party": 1,
+      "same_party": false,
+      "p_value": 0.10564180358157654,
+      "f_statistic": 3.4492640917187924,
+      "significant": false,
+      "interaction_total": 2005.0
+    },
+    {
+      "source": 6,
+      "target": 1,
+      "source_party": 0,
+      "target_party": 0,
+      "same_party": true,
+      "p_value": 0.13969532893482478,
+      "f_statistic": 2.774883895876581,
+      "significant": false,
+      "interaction_total": 3746.0
+    },
+    {
+      "source": 6,
+      "target": 2,
+      "source_party": 0,
+      "target_party": 0,
+      "same_party": true,
+      "p_value": 0.20621827137128168,
+      "f_statistic": 2.404193834822091,
+      "significant": false,
+      "interaction_total": 13756.0
+    },
+    {
+      "source": 6,
+      "target": 3,
+      "source_party": 0,
+      "target_party": 1,
+      "same_party": false,
+      "p_value": 0.08693003791161695,
+      "f_statistic": 3.9588957013942236,
+      "significant": false,
+      "interaction_total": 345.0
+    },
+    {
+      "source": 6,
+      "target": 4,
+      "source_party": 0,
+      "target_party": 1,
+      "same_party": false,
+      "p_value": 0.010415295537246242,
+      "f_statistic": 17.597207759500602,
+      "significant": true,
+      "interaction_total": 219.0
+    },
+    {
+      "source": 6,
+      "target": 5,
+      "source_party": 0,
+      "target_party": 0,
+      "same_party": true,
+      "p_value": 0.5142728384919673,
+      "f_statistic": 0.7889016671735664,
+      "significant": false,
+      "interaction_total": 787.0
+    }
+  ],
+  "adjacency_matrix": [
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "analysis": {
+    "out_degree": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      2.0,
+      1.0,
+      1.0
+    ],
+    "in_degree": [
+      2.0,
+      0.0,
+      3.0,
+      0.0,
+      2.0,
+      0.0,
+      1.0
+    ],
+    "most_influential": [
+      4
+    ],
+    "most_influenced": [
+      2
+    ],
+    "network_density": 0.19047619047619047,
+    "n_significant_edges": 8,
+    "n_possible_edges": 42,
+    "same_party_causal": 4,
+    "same_party_total": 18,
+    "cross_party_causal": 4,
+    "cross_party_total": 24,
+    "bidirectional_pairs": [
+      [
+        4,
+        6
+      ]
+    ]
+  }
+}

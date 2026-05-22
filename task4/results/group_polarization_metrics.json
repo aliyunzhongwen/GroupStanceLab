@@ -1,0 +1,105 @@
+{
+  "ei_index": [
+    -0.5992844364937389,
+    -0.5732946298984035,
+    -0.6994022203245089,
+    -0.67779632721202,
+    -0.7560975609756098,
+    -0.6564141035258815,
+    -0.5254569190600522,
+    -0.5202286719437115,
+    -0.6409591704471809,
+    -0.644811704145218,
+    -0.6507269789983845
+  ],
+  "details": [
+    {
+      "window": 0,
+      "EI": -0.5992844364937389,
+      "same_interactions": 1788.0,
+      "cross_interactions": 448.0,
+      "total": 2236.0
+    },
+    {
+      "window": 1,
+      "EI": -0.5732946298984035,
+      "same_interactions": 542.0,
+      "cross_interactions": 147.0,
+      "total": 689.0
+    },
+    {
+      "window": 2,
+      "EI": -0.6994022203245089,
+      "same_interactions": 995.0,
+      "cross_interactions": 176.0,
+      "total": 1171.0
+    },
+    {
+      "window": 3,
+      "EI": -0.67779632721202,
+      "same_interactions": 1005.0,
+      "cross_interactions": 193.0,
+      "total": 1198.0
+    },
+    {
+      "window": 4,
+      "EI": -0.7560975609756098,
+      "same_interactions": 1440.0,
+      "cross_interactions": 200.0,
+      "total": 1640.0
+    },
+    {
+      "window": 5,
+      "EI": -0.6564141035258815,
+      "same_interactions": 1104.0,
+      "cross_interactions": 229.0,
+      "total": 1333.0
+    },
+    {
+      "window": 6,
+      "EI": -0.5254569190600522,
+      "same_interactions": 2337.0,
+      "cross_interactions": 727.0,
+      "total": 3064.0
+    },
+    {
+      "window": 7,
+      "EI": -0.5202286719437115,
+      "same_interactions": 3457.0,
+      "cross_interactions": 1091.0,
+      "total": 4548.0
+    },
+    {
+      "window": 8,
+      "EI": -0.6409591704471809,
+      "same_interactions": 3798.0,
+      "cross_interactions": 831.0,
+      "total": 4629.0
+    },
+    {
+      "window": 9,
+      "EI": -0.644811704145218,
+      "same_interactions": 6071.0,
+      "cross_interactions": 1311.0,
+      "total": 7382.0
+    },
+    {
+      "window": 10,
+      "EI": -0.6507269789983845,
+      "same_interactions": 10218.0,
+      "cross_interactions": 2162.0,
+      "total": 12380.0
+    }
+  ],
+  "trend": {
+    "slope": 0.001616582659760659,
+    "intercept": -0.6393986153919587,
+    "r_squared": 0.005572427038993591,
+    "p_value": 0.8273273876964947,
+    "interpretation": "上升趋势(极化减弱)"
+  },
+  "mean": -0.6313157020931555,
+  "std": 0.06848188729910851,
+  "min": -0.7560975609756098,
+  "max": -0.5202286719437115
+}

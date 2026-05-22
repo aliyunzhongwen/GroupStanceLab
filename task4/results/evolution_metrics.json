@@ -1,0 +1,624 @@
+{
+  "ei_index": {
+    "ei_index": [
+      -0.5992844364937389,
+      -0.5732946298984035,
+      -0.6994022203245089,
+      -0.67779632721202,
+      -0.7560975609756098,
+      -0.6564141035258815,
+      -0.5254569190600522,
+      -0.5202286719437115,
+      -0.6409591704471809,
+      -0.644811704145218,
+      -0.6507269789983845
+    ],
+    "details": [
+      {
+        "window": 0,
+        "EI": -0.5992844364937389,
+        "same_interactions": 1788.0,
+        "cross_interactions": 448.0,
+        "total": 2236.0
+      },
+      {
+        "window": 1,
+        "EI": -0.5732946298984035,
+        "same_interactions": 542.0,
+        "cross_interactions": 147.0,
+        "total": 689.0
+      },
+      {
+        "window": 2,
+        "EI": -0.6994022203245089,
+        "same_interactions": 995.0,
+        "cross_interactions": 176.0,
+        "total": 1171.0
+      },
+      {
+        "window": 3,
+        "EI": -0.67779632721202,
+        "same_interactions": 1005.0,
+        "cross_interactions": 193.0,
+        "total": 1198.0
+      },
+      {
+        "window": 4,
+        "EI": -0.7560975609756098,
+        "same_interactions": 1440.0,
+        "cross_interactions": 200.0,
+        "total": 1640.0
+      },
+      {
+        "window": 5,
+        "EI": -0.6564141035258815,
+        "same_interactions": 1104.0,
+        "cross_interactions": 229.0,
+        "total": 1333.0
+      },
+      {
+        "window": 6,
+        "EI": -0.5254569190600522,
+        "same_interactions": 2337.0,
+        "cross_interactions": 727.0,
+        "total": 3064.0
+      },
+      {
+        "window": 7,
+        "EI": -0.5202286719437115,
+        "same_interactions": 3457.0,
+        "cross_interactions": 1091.0,
+        "total": 4548.0
+      },
+      {
+        "window": 8,
+        "EI": -0.6409591704471809,
+        "same_interactions": 3798.0,
+        "cross_interactions": 831.0,
+        "total": 4629.0
+      },
+      {
+        "window": 9,
+        "EI": -0.644811704145218,
+        "same_interactions": 6071.0,
+        "cross_interactions": 1311.0,
+        "total": 7382.0
+      },
+      {
+        "window": 10,
+        "EI": -0.6507269789983845,
+        "same_interactions": 10218.0,
+        "cross_interactions": 2162.0,
+        "total": 12380.0
+      }
+    ],
+    "trend": {
+      "slope": 0.001616582659760659,
+      "intercept": -0.6393986153919587,
+      "r_squared": 0.005572427038993591,
+      "p_value": 0.8273273876964947,
+      "interpretation": "上升趋势(极化减弱)"
+    },
+    "mean": -0.6313157020931555,
+    "std": 0.06848188729910851,
+    "min": -0.7560975609756098,
+    "max": -0.5202286719437115
+  },
+  "merging_metrics": {
+    "same_stance_pairs": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "group_sizes": [
+      164,
+      164,
+      60,
+      190,
+      36,
+      73,
+      190
+    ],
+    "pair_results": [
+      {
+        "group_a": 2,
+        "group_b": 6,
+        "party": "Democrat",
+        "interaction_a_to_b": 1993.0,
+        "interaction_b_to_a": 13756.0,
+        "interaction_flow": 15749.0,
+        "size_a": 60,
+        "size_b": 190,
+        "interaction_density": 1.3814912280701754,
+        "cosine_similarity": 0.9331072662023139,
+        "interaction_density_normalized": 1.0,
+        "merging_score": 0.9665536331011569
+      },
+      {
+        "group_a": 0,
+        "group_b": 4,
+        "party": "Republican",
+        "interaction_a_to_b": 1154.0,
+        "interaction_b_to_a": 586.0,
+        "interaction_flow": 1740.0,
+        "size_a": 164,
+        "size_b": 36,
+        "interaction_density": 0.29471544715447157,
+        "cosine_similarity": 0.9967319290401105,
+        "interaction_density_normalized": 0.205258665740551,
+        "merging_score": 0.6009952973903308
+      },
+      {
+        "group_a": 1,
+        "group_b": 2,
+        "party": "Democrat",
+        "interaction_a_to_b": 1674.0,
+        "interaction_b_to_a": 858.0,
+        "interaction_flow": 2532.0,
+        "size_a": 164,
+        "size_b": 60,
+        "interaction_density": 0.2573170731707317,
+        "cosine_similarity": 0.9627223007673068,
+        "interaction_density_normalized": 0.17790984718855135,
+        "merging_score": 0.570316073977929
+      },
+      {
+        "group_a": 1,
+        "group_b": 6,
+        "party": "Democrat",
+        "interaction_a_to_b": 1260.0,
+        "interaction_b_to_a": 3746.0,
+        "interaction_flow": 5006.0,
+        "size_a": 164,
+        "size_b": 190,
+        "interaction_density": 0.16065468549422338,
+        "cosine_similarity": 0.9914292617743259,
+        "interaction_density_normalized": 0.10722222578241049,
+        "merging_score": 0.5493257437783682
+      },
+      {
+        "group_a": 0,
+        "group_b": 3,
+        "party": "Republican",
+        "interaction_a_to_b": 2795.0,
+        "interaction_b_to_a": 1946.0,
+        "interaction_flow": 4741.0,
+        "size_a": 164,
+        "size_b": 190,
+        "interaction_density": 0.1521501925545571,
+        "cosine_similarity": 0.9961193201222718,
+        "interaction_density_normalized": 0.10100302934395519,
+        "merging_score": 0.5485611747331135
+      },
+      {
+        "group_a": 3,
+        "group_b": 4,
+        "party": "Republican",
+        "interaction_a_to_b": 712.0,
+        "interaction_b_to_a": 223.0,
+        "interaction_flow": 935.0,
+        "size_a": 190,
+        "size_b": 36,
+        "interaction_density": 0.13669590643274854,
+        "cosine_similarity": 0.9970896560346365,
+        "interaction_density_normalized": 0.089701562943844,
+        "merging_score": 0.5433956094892403
+      },
+      {
+        "group_a": 2,
+        "group_b": 5,
+        "party": "Democrat",
+        "interaction_a_to_b": 90.0,
+        "interaction_b_to_a": 829.0,
+        "interaction_flow": 919.0,
+        "size_a": 60,
+        "size_b": 73,
+        "interaction_density": 0.20981735159817352,
+        "cosine_similarity": 0.631332514877878,
+        "interaction_density_normalized": 0.14317407853927253,
+        "merging_score": 0.3872532967085753
+      },
+      {
+        "group_a": 5,
+        "group_b": 6,
+        "party": "Democrat",
+        "interaction_a_to_b": 178.0,
+        "interaction_b_to_a": 787.0,
+        "interaction_flow": 965.0,
+        "size_a": 73,
+        "size_b": 190,
+        "interaction_density": 0.0695746214852199,
+        "cosine_similarity": 0.714544507353836,
+        "interaction_density_normalized": 0.04061686627213446,
+        "merging_score": 0.37758068681298523
+      },
+      {
+        "group_a": 1,
+        "group_b": 5,
+        "party": "Democrat",
+        "interaction_a_to_b": 100.0,
+        "interaction_b_to_a": 68.0,
+        "interaction_flow": 168.0,
+        "size_a": 164,
+        "size_b": 73,
+        "interaction_density": 0.014032743067156699,
+        "cosine_similarity": 0.6553846589060773,
+        "interaction_density_normalized": 0.0,
+        "merging_score": 0.32769232945303867
+      }
+    ]
+  },
+  "splitting_metrics": {
+    "cross_stance_pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "max_interaction": 2631.0,
+    "pair_results": [
+      {
+        "group_a": 4,
+        "group_b": 5,
+        "party_a": "Republican",
+        "party_b": "Democrat",
+        "interaction_a_to_b": 10.0,
+        "interaction_b_to_a": 6.0,
+        "interaction_flow": 16.0,
+        "interaction_sparsity": 0.9939186621056633,
+        "cosine_similarity": 0.6933543089297929,
+        "feature_difference": 0.3066456910702071,
+        "splitting_score": 0.6502821765879352
+      },
+      {
+        "group_a": 3,
+        "group_b": 5,
+        "party_a": "Republican",
+        "party_b": "Democrat",
+        "interaction_a_to_b": 22.0,
+        "interaction_b_to_a": 44.0,
+        "interaction_flow": 66.0,
+        "interaction_sparsity": 0.9749144811858609,
+        "cosine_similarity": 0.7010520318188381,
+        "feature_difference": 0.29894796818116187,
+        "splitting_score": 0.6369312246835114
+      },
+      {
+        "group_a": 0,
+        "group_b": 5,
+        "party_a": "Republican",
+        "party_b": "Democrat",
+        "interaction_a_to_b": 100.0,
+        "interaction_b_to_a": 129.0,
+        "interaction_flow": 229.0,
+        "interaction_sparsity": 0.9129608513873052,
+        "cosine_similarity": 0.7456950290765941,
+        "feature_difference": 0.25430497092340587,
+        "splitting_score": 0.5836329111553555
+      },
+      {
+        "group_a": 2,
+        "group_b": 3,
+        "party_a": "Democrat",
+        "party_b": "Republican",
+        "interaction_a_to_b": 44.0,
+        "interaction_b_to_a": 75.0,
+        "interaction_flow": 119.0,
+        "interaction_sparsity": 0.9547700494108704,
+        "cosine_similarity": 0.9640183026955619,
+        "feature_difference": 0.03598169730443812,
+        "splitting_score": 0.49537587335765426
+      },
+      {
+        "group_a": 1,
+        "group_b": 4,
+        "party_a": "Democrat",
+        "party_b": "Republican",
+        "interaction_a_to_b": 99.0,
+        "interaction_b_to_a": 5.0,
+        "interaction_flow": 104.0,
+        "interaction_sparsity": 0.9604713036868111,
+        "cosine_similarity": 0.992482448087918,
+        "feature_difference": 0.007517551912082032,
+        "splitting_score": 0.48399442779944657
+      },
+      {
+        "group_a": 2,
+        "group_b": 4,
+        "party_a": "Democrat",
+        "party_b": "Republican",
+        "interaction_a_to_b": 126.0,
+        "interaction_b_to_a": 70.0,
+        "interaction_flow": 196.0,
+        "interaction_sparsity": 0.9255036107943748,
+        "cosine_similarity": 0.9807118887883484,
+        "feature_difference": 0.019288111211651637,
+        "splitting_score": 0.47239586100301323
+      },
+      {
+        "group_a": 4,
+        "group_b": 6,
+        "party_a": "Republican",
+        "party_b": "Democrat",
+        "interaction_a_to_b": 139.0,
+        "interaction_b_to_a": 219.0,
+        "interaction_flow": 358.0,
+        "interaction_sparsity": 0.8639300646142152,
+        "cosine_similarity": 0.9797507063729844,
+        "feature_difference": 0.020249293627015552,
+        "splitting_score": 0.44208967912061536
+      },
+      {
+        "group_a": 3,
+        "group_b": 6,
+        "party_a": "Republican",
+        "party_b": "Democrat",
+        "interaction_a_to_b": 80.0,
+        "interaction_b_to_a": 345.0,
+        "interaction_flow": 425.0,
+        "interaction_sparsity": 0.8384644621816799,
+        "cosine_similarity": 0.9895890067561038,
+        "feature_difference": 0.01041099324389616,
+        "splitting_score": 0.42443772771278804
+      },
+      {
+        "group_a": 0,
+        "group_b": 1,
+        "party_a": "Republican",
+        "party_b": "Democrat",
+        "interaction_a_to_b": 178.0,
+        "interaction_b_to_a": 296.0,
+        "interaction_flow": 474.0,
+        "interaction_sparsity": 0.8198403648802737,
+        "cosine_similarity": 0.9879658487397049,
+        "feature_difference": 0.012034151260295056,
+        "splitting_score": 0.41593725807028437
+      },
+      {
+        "group_a": 0,
+        "group_b": 2,
+        "party_a": "Republican",
+        "party_b": "Democrat",
+        "interaction_a_to_b": 921.0,
+        "interaction_b_to_a": 249.0,
+        "interaction_flow": 1170.0,
+        "interaction_sparsity": 0.5553021664766249,
+        "cosine_similarity": 0.9698976929871073,
+        "feature_difference": 0.030102307012892737,
+        "splitting_score": 0.2927022367447588
+      },
+      {
+        "group_a": 1,
+        "group_b": 3,
+        "party_a": "Democrat",
+        "party_b": "Republican",
+        "interaction_a_to_b": 1023.0,
+        "interaction_b_to_a": 704.0,
+        "interaction_flow": 1727.0,
+        "interaction_sparsity": 0.34359559103002657,
+        "cosine_similarity": 0.996142214721813,
+        "feature_difference": 0.0038577852781870314,
+        "splitting_score": 0.1737266881541068
+      },
+      {
+        "group_a": 0,
+        "group_b": 6,
+        "party_a": "Republican",
+        "party_b": "Democrat",
+        "interaction_a_to_b": 626.0,
+        "interaction_b_to_a": 2005.0,
+        "interaction_flow": 2631.0,
+        "interaction_sparsity": 0.0,
+        "cosine_similarity": 0.9846461285171285,
+        "feature_difference": 0.015353871482871484,
+        "splitting_score": 0.007676935741435742
+      }
+    ]
+  },
+  "stability_index": {
+    "individual_stability": [
+      {
+        "group": 0,
+        "party": "Republican",
+        "variance": 0.013775608502328396,
+        "mean_stance": 0.642134964466095,
+        "std_stance": 0.11736954003572464,
+        "range": 0.3254680931568146
+      },
+      {
+        "group": 1,
+        "party": "Democrat",
+        "variance": 0.02398710697889328,
+        "mean_stance": 0.17089331150054932,
+        "std_stance": 0.15487772226333618,
+        "range": 0.4482128918170929
+      },
+      {
+        "group": 2,
+        "party": "Democrat",
+        "variance": 0.002646589884534478,
+        "mean_stance": 0.29429247975349426,
+        "std_stance": 0.051445018500089645,
+        "range": 0.17750151455402374
+      },
+      {
+        "group": 3,
+        "party": "Republican",
+        "variance": 0.03880571201443672,
+        "mean_stance": 0.7507200241088867,
+        "std_stance": 0.19699165225028992,
+        "range": 0.4820994734764099
+      },
+      {
+        "group": 4,
+        "party": "Republican",
+        "variance": 0.0035680329892784357,
+        "mean_stance": 0.6522112488746643,
+        "std_stance": 0.059733014553785324,
+        "range": 0.20677679777145386
+      },
+      {
+        "group": 5,
+        "party": "Democrat",
+        "variance": 0.018421420827507973,
+        "mean_stance": 0.23930130898952484,
+        "std_stance": 0.13572552800178528,
+        "range": 0.3833668828010559
+      },
+      {
+        "group": 6,
+        "party": "Democrat",
+        "variance": 0.015660036355257034,
+        "mean_stance": 0.21789923310279846,
+        "std_stance": 0.12514007091522217,
+        "range": 0.4258100688457489
+      }
+    ],
+    "group_statistics": {
+      "democrat": {
+        "groups": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "mean_variance": 0.01517878845334053,
+        "std_variance": 0.007832445204257965
+      },
+      "republican": {
+        "groups": [
+          0,
+          3,
+          4
+        ],
+        "mean_variance": 0.01871645264327526,
+        "std_variance": 0.014803883619606495
+      }
+    },
+    "most_stable_group": 2,
+    "least_stable_group": 3
+  },
+  "prediction_summary": {
+    "influence_models": {
+      "degroot": {
+        "mae": 0.1485499143600464,
+        "rmse": 0.1866806298494339
+      },
+      "friedkin_johnsen": {
+        "mae": 0.14378489553928375,
+        "rmse": 0.18725840747356415,
+        "alpha": [
+          0.6450108289718628,
+          0.38186657428741455,
+          0.9317989349365234,
+          0.05000000074505806,
+          0.9080539345741272,
+          0.5252909660339355,
+          0.5964502096176147
+        ]
+      },
+      "gnn": {
+        "mae": 0.11081226170063019,
+        "rmse": 0.13773971796035767,
+        "test_mae": 0.09768927097320557,
+        "test_rmse": 0.11474961787462234
+      },
+      "best_model": "GNN"
+    },
+    "granger_causality": {
+      "total_pairs": 42,
+      "significant_pairs_p005": 8,
+      "significant_pairs_p010": 14,
+      "significant_pairs_p020": 21,
+      "significance_rate_p005": 0.19047619047619047,
+      "significance_rate_p010": 0.3333333333333333,
+      "same_party": {
+        "total": 18,
+        "significant": 4,
+        "rate": 0.2222222222222222
+      },
+      "cross_party": {
+        "total": 24,
+        "significant": 4,
+        "rate": 0.16666666666666666
+      }
+    }
+  }
+}
